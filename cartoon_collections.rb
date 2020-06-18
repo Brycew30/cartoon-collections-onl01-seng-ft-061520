@@ -11,9 +11,9 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect {|calls| calls + "!"}
 end
 
-short_words = ["puff", "go", "two"]
-def long_planeteer_calls(short_words)
-  short_words.any?{|word| word > 4}
+assorted_words = ["two", "go", "industrious", "bop"]
+def long_planeteer_calls(assorted_words)
+  assorted_words.any?{|word| word > 4}
 end
 
 def find_the_cheese# code an argument here

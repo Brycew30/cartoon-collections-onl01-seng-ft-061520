@@ -13,7 +13,7 @@ end
 
 assorted_words = ["two", "go", "industrious", "bop"]
 def long_planeteer_calls(assorted_words)
-  assorted_words.any?{|word| word > 4}
+  assorted_words.any?{|word| word.length > 4}
 end
 
 def find_the_cheese# code an argument here

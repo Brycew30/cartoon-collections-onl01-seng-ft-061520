@@ -13,7 +13,7 @@ end
 
 short_words = ["puff", "go", "two"]
 def long_planeteer_calls(short_words)
-  
+  short_words.any?{|word| word > 4}
 end
 
 def find_the_cheese# code an argument here
